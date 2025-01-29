@@ -1,25 +1,18 @@
 # Capstone Project: Terraform & Kubernetes Deployment
 
-This document outlines the implementation details of a fully automated CI/CD pipeline using Jenkins, Terraform, and Kubernetes. It also provides details about the **JobsApp** project, which consists of three main services: Auth Service, User Service, and Company Service. These services manage user authentication, profile details, and company information.
+This document elicits the implementation of the solution for the shared problem statement:
 
-**Main Repository for JobsApp MERN Application**: [JobsApp](https://github.com/UnpredictablePrashant/JobsApp)
+Reference repository : [JobsApp](https://github.com/UnpredictablePrashant/JobsApp)
    - MERN stack application with APIs for job postings, user authentication, and more.
 
-The deployment repository is split into two parts:
-
-1. **Terraform Repository**: [CapstoneProject-Terraform](https://github.com/arpit1605/CapstoneProject-Terraform.git)
-   - Responsible for provisioning the required cloud infrastructure.
-
-2. **Kubernetes Repository**: [CapstoneProject-Kubernetes](https://github.com/arpit1605/CapstoneProject-Kubernetes.git)
-   - Contains the application code, docker files, and Kubernetes manifests for deployment.
-
+The deployment repository : https://github.com/kiran-umesh/capstone_herovired_Job_Internsheep.git
+This repo houses all the modules like Terraform, app code, k8s, docker , jenkins files
 
 ---
 
-
 ## Architecture Diagram
 
-Below is the architecture diagram of the deployment:
+Arrived Architechture of the solution:
 
 ![image](https://github.com/user-attachments/assets/99d2ba68-70e8-44d8-8fd0-2371e3c620a2)
 

@@ -1,7 +1,7 @@
 db = db.getSiblingDB('jobdatabase'); 
 db.createUser({
-  user: 'user',
-  pwd: 'password123',
+  user: 'kiran',
+  pwd: 'mangodb123',
   roles: [
     {
       role: 'readWrite',
